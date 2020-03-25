@@ -1,6 +1,6 @@
-# Machine Learning Pipeline
+# Dabbling with AutoML
 
-A collection of templates for performing machine learning tasks.
+Small experiments for testing AutoML frameworks in Python.
 
 ## Installing the Environment
 To install the environment, type the following in the terminal:

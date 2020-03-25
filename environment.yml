@@ -1,9 +1,11 @@
-name: mlpipeline
+name: automl
+# conda env create -f environment.yml
+# to remove, simply do conda env remove -n mlpipeline
 channels:
     - conda-forge
     - defaults
     - anaconda
-
+    - h2oai
 dependencies:
     - python=3.7
     - pip
@@ -12,10 +14,13 @@ dependencies:
     - matplotlib
     - seaborn
     - statsmodels
-    - lightgbm
+    - lmfit
     - xgboost
     - scikit-learn
     - jupyter
-    - jupyter_contrib_nbextensions
-    - autopep8
-
+    - pandas-profiling
+    - h2o
+    - tpot
+    - pip:
+      - auto-sklearn
+      - lightgbm
