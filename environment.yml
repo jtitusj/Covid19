@@ -5,7 +5,6 @@ channels:
     - conda-forge
     - defaults
     - anaconda
-    - h2oai
 dependencies:
     - python=3.7
     - pip
@@ -19,7 +18,6 @@ dependencies:
     - scikit-learn
     - jupyter
     - pandas-profiling
-    - h2o
     - tpot
     - pip:
       - auto-sklearn
