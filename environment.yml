@@ -1,4 +1,4 @@
-name: automl
+name: covid19
 # conda env create -f environment.yml
 # to remove, simply do conda env remove -n mlpipeline
 channels:
