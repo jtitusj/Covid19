@@ -17,8 +17,11 @@ dependencies:
     - xgboost
     - scikit-learn
     - jupyter
+    - jupyter_contrib_nbextensions
+    - autopep8
     - pandas-profiling
     - tpot
+    - lxml
     - pip:
       - auto-sklearn
       - lightgbm
