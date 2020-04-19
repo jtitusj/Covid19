@@ -20,6 +20,7 @@ dependencies:
     - jupyter_contrib_nbextensions
     - autopep8
     - pandas-profiling
+    - imagehash
     - tpot
     - lxml
     - pip:
